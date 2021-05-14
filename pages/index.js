@@ -3,7 +3,7 @@ import { getCourses } from '../utils/db'
 const Index = ({ courses }) => {
   return (
     <div>
-      <h1>Courses</h1>
+      <h1>Courses List</h1>
       <pre>
         {JSON.stringify(courses, null, 2)}
       </pre>
